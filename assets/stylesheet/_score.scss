@@ -1,0 +1,65 @@
+
+
+.table {
+   margin: 1rem auto;
+   font-size: 1.5rem;
+   text-align: center;
+}
+
+.table {
+   border: 3px solid #000000;
+   width: 100%;
+   text-align: left;
+   border-collapse: collapse;
+ }
+ .table td, .table th {
+   border: 1px solid #000000;
+   padding: 5px 4px;
+ }
+ .table tbody td {
+   font-size: 13px;
+ }
+ .table thead {
+    text-transform: uppercase;
+   background: #353535;
+   color: whitesmoke;
+   background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+   background: -webkit-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+   background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+   border-bottom: 3px solid #000000;
+ }
+ .table thead th {
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 15px;
+   font-weight: bold;
+   color: #000000;
+   text-align: left;
+ }
+ .table tfoot {
+   font-size: 14px;
+   font-weight: bold;
+   color: #000000;
+   border-top: 3px solid #000000;
+ }
+ .table tfoot td {
+   font-size: 14px;
+ }
+
+ p {
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 1.5rem;
+    padding: 0.5rem;
+ }
+
+ .table {
+    th {
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 600;
+      background-color: rgba(173, 172, 172, 0.527);
+    }
+
+
+ }

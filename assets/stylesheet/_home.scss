@@ -1,0 +1,102 @@
+
+
+
+header {
+   height: 10vh;
+   // background-color: rgba(128, 255, 0, 0.747);
+   text-align: center;
+   font-size: 4rem;
+   padding: 2rem;
+   font-family: 'Shadows Into Light', cursive;
+}
+main {
+   // height: 80vh;
+   padding: 1rem;
+}
+
+
+.homecontainer, .quizcontainer, .scorecard {
+   height: 100%;
+}
+
+.flexrow {
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 2rem;
+   transition: all 0.2s;
+   p {
+      visibility: hidden;
+      transition: all 0.2s;
+
+   }
+
+   h2 {
+      text-transform: uppercase;
+      background-color: rgba(white, 0.5);
+      padding: 1rem;
+      width: 100%;
+      text-align: center;
+      font-weight: 600;
+      margin-bottom: 1rem;
+   }
+
+
+}
+
+.box {
+   height: 50vh;
+   width: 50vh;
+   // background-color: coral;
+   border-radius: 15px;
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   transition: all 0.2s;
+   &:hover {
+      transform: scale(1.1);
+      h2 {
+         transition: all 0.2s;
+         text-decoration: underline;
+         transform: scale(1.05);
+      }
+   }
+   background-size: cover;
+}
+
+#two {
+   background-image: url("../img/riverbg.jpeg");
+}
+
+#one {
+   background-image: url("../img/indiabg.jpg");
+}
+
+
+.quizcontainer {
+   display: none;
+}
+.scorecard {
+   display: none;
+}
+.homecontainer {
+   display: block;
+}
+
+
+.btn {
+   margin: 1rem;
+   width: 15rem;
+}
+
+.buttonbox {
+   // display: flex;
+   // flex-flow: row nowrap;
+   // justify-content: space-around;
+   // width: 100%;
+}
