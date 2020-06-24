@@ -28,7 +28,22 @@
       border-radius: 15px;
    }
 }
+@media screen and (max-width: 768px) {
 
+   body {
+      overflow-x: hidden;
+   }
+
+   .imgbox {
+      width: 50vw;
+   }
+   .progress {
+      progress{
+
+         width: 60vw;
+      }
+   }
+}
 .title {
    font-size: 30px;
 }
